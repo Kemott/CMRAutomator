@@ -1,0 +1,6 @@
+.venv
+*.xlsm
+**/__pychache__
+CMRAutomator.py
+file.py
+main.spec

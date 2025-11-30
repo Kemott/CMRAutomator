@@ -3,9 +3,9 @@ from tkinter import ttk
 import view.panedWindows.tabPanedWindow as tabPanedWindow
 
 class TabsFrame(ttk.Frame):
-    def __init__(self, parent):
+    def __init__(self, parent, data=[]):
         super().__init__(parent)
         self.grid(column=0, row=0, sticky=(N,W,E,S))
         self.columnconfigure(0, weight=1)
         self.rowconfigure(0, weight=1)
-        tabPanedWindow.TabPanedWindow(self)
+        tabPanedWindow.TabPanedWindow(self, data=data)

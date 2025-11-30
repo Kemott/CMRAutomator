@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 import view.frames.tabsFrame as frame
 import model.CMR as cmr
+import controller.DirectionController as directionController
 
 class MainTabs(ttk.Notebook):
     def __init__(self, parent):
@@ -54,6 +55,8 @@ class MainTabs(ttk.Notebook):
         test5.contentsLines = ["Vom Gateway Robakowo/PL:", "Pal. LV: 5", "Pal. EE: 10", "Pal. LT: 17", "", "Movement ID: DD6988A"]
         test3.carrierLines = ["Spedition Servisco / Sp zo.o.", "Ul. Komornicka 16", "PL-62-052 Komorniki Głuchowo"]
         test5.createName()
+
+        directionController.DirectionController.getAll()
         # Koniec partii do usunięcia
 
         toBeCompletedFrame = frame.TabsFrame(self, data=[test1.getListText(), test2.getListText(), test3.getListText(), test4.getListText(), test5.getListText()])

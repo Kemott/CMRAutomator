@@ -18,3 +18,6 @@ class Direction():
                 self.name += "_" + self.subDirection
         
         return self.name
+    
+    def __str__(self):
+        return f"Id: {self.id}"

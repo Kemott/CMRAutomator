@@ -1,3 +1,5 @@
+import model.Direction as direction
+
 class CMR():
     def __init__(self, name=""):
         if name != "":

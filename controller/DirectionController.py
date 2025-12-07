@@ -1,22 +1,16 @@
 import model.Direction as dire
 import pandas as pd
 import pathlib
+import json
 
 class DirectionController():
-    file = str(pathlib.Path().absolute()/"dataFiles"/"directions.csv")
+    file = str(pathlib.Path().absolute()/"dataFiles"/"directions.json")
     directions = []
 
     @staticmethod
     def getAll():
-        df = pd.read_csv(DirectionController.file, sep=";")
-        DirectionController.directions = []
-        df = df.reset_index()
-        for index, row in df.iterrows():
-            direction = dire.Direction(row['Id'])
-            DirectionController.directions.append(direction)
-
-        for direction in DirectionController.directions:
-            print(direction)
+        df = pd.read_json(DirectionController.file)
+        print(df.to_dict())
 
     @staticmethod
     def get(id):

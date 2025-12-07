@@ -1,23 +1,23 @@
 class Direction():
-    lastId = 0
-
-    def __init__(self, id):
-        self.mainDirection = ""
-        self.subDirection = ""
-
-        if id == 0:
-            self.id = Direction.lastId + 1
-            Direction.lastId += 1
-        else:
-            self.id = id
-
-    def getName(self):
-        if self.name == "":
-            self.name = self.mainDirection
-            if self.subDirection != "":
-                self.name += "_" + self.subDirection
+    def __init__(self, id, name, receiver, unloading, fileName, category = ""):
+        self.category = category
         
-        return self.name
-    
+        self.id = id
+        self.name = name
+        self.receiver = receiver
+        self.unloading = unloading
+        self.fileName = fileName
+
     def __str__(self):
-        return f"Id: {self.id}"
+        result = str(self.id) + " "
+        result += self.name + " "
+        for line in self.receiver:
+            result += line + " "
+        
+        result += self.unloading + " "
+        result += self.fileName + " "
+
+        if self.category != "":
+            result += self.category
+
+        return result

@@ -2,4 +2,5 @@ from tkinter import *
 from tkinter import ttk
 import controller.DirectionController as directionController
 
-directionController.DirectionController.getAll()
+for direction in directionController.DirectionController.getAll():
+    print(direction)

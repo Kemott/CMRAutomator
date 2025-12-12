@@ -1,0 +1,238 @@
+{
+    "lastUsedId": 29,
+    "directions":[
+        {
+            "direction": "Direction1",
+            "subdirections": [
+                {
+                    "id": 1,
+                    "direction": "Subdirection1_1",
+                    "receiver": ["Głowackiego Bartosza 49", "43-600 JAWORZNO"],
+                    "unloading": "GŁOWACKIEGO BARTOSZA 49, JAWORZNO",
+                    "fileName": "DIRECTION1"
+                },
+                {
+                    "id": 2,
+                    "direction": "Subdirection1_2",
+                    "receiver": ["Biegasa Bolesława 61", "51-629 Wrocław"],
+                    "unloading": "BIEGASA BOLESŁAWA 61, 51-629 WROCŁAW",
+                    "fileName": "DIRECTION1"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "direction": "Direction2",
+            "receiver": ["Direction2", " Świerkowa 54", "64-931 Piła"],
+            "unloading": "Świerkowa 54, 64-931 Piła",
+            "fileName": "DIRECTION2"
+        },
+        {
+            "direction": "Direction3",
+            "subdirections": [
+                {
+                    "id": 4,
+                    "direction": "Subdirection3_1",
+                    "receiver": ["Test, Biruliškes (Test)", "Darbo g. 9", "52102 Biruliškes"],
+                    "unloading": "Darbo g. 9, 52102 Biruliškes",
+                    "fileName": "SUBDIRECTION3_1"
+                },
+                {
+                    "id": 5,
+                    "direction": "Subdirection 3_2",
+                    "receiver": ["Test, Test (TEST)", "Test test 24", "2167 Teste"],
+                    "unloading": "Test test 24, 2167 Teste",
+                    "fileName": "SUBDIRECTION32"
+                },
+                {
+                    "id": 6,
+                    "direction": "Subdirection 3/3",
+                    "receiver": ["Test Test", "Test Test 36", "Test - 2187 Test"],
+                    "unloading": "Test Test",
+                    "fileName": "SUBDIRECTION33"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "direction": "Direction4 (TEST)",
+            "receiver": ["Test X", "TestTestTestTest 233", "1120 Test-Test-Test", "Belgium"],
+            "unloading": "Test 233, 1120 Test-Test-Test",
+            "fileName": "DIRECTION4"
+        },
+        {
+            "id": 8,
+            "direction": "Direction5",
+            "receiver": ["Direction5", "Migdałowa 78", "02-796 Warszawa"],
+            "unloading": "Migdałowa 78, 02-796 Warszawa",
+            "fileName": "DIRECTION5"
+        },
+        {
+            "id": 9,
+            "direction": "Direction6 (Test Králové)",
+            "receiver": ["Direction 6 Sorting Hub II", "Náchodská 801", "CZ-50301 Test Králové"],
+            "unloading": "CZ-50301 Test Králové",
+            "fileName": "DIRECTION6"
+        },
+        {
+            "id": 10,
+            "direction": "Direction7",
+            "receiver": ["Direction 7 SP. Z O.O.", "Elektoralna 56", "00-892 Warszawa"],
+            "unloading": "Direction 7 SP. Z O.O., 00-892 Warszawa",
+            "fileName": "DIRECTION_7"
+        },
+        {
+            "direction": "Direction8",
+            "subdirections": [
+                {
+                    "id": 11,
+                    "direction": "Subdirection8_1",
+                    "receiver": ["Place", "Parcela 2-3, Polígono Industrial Les Minetes", "08130 Santa Perpètua de Mogoda, Barcelona"],
+                    "unloading": "08130 Santa Perpètua de Mogoda, Barcelona",
+                    "fileName": "DIRECTION8"
+                },
+                {
+                    "id": 12,
+                    "direction": "Subdirection8_2",
+                    "receiver": ["Place Place Test","Poligon de Constatnti, AV. de les Puntes, Illa 6", "43120 Constanti, Tarragona"],
+                    "unloading": "43120, Constanti Tarragona",
+                    "fileName": "DIRECTION8"
+                },
+                {
+                    "id": 13,
+                    "direction": "Subdirection8_3",
+                    "receiver": ["Place", "Plataforma Logística de Plaza, C. Bursao, 8", "50197 Zaragoza"],
+                    "unloading": "50197 Zaragoza",
+                    "fileName": "DIRECTION8"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "direction": "Direction9",
+            "receiver": ["Direction 9", "Podmiejska 77", "61-357 Poznań"],
+            "unloading": "Podmiejska 77, 61-357 Poznań",
+            "fileName": "DIRECTION9"
+        },
+        {
+            "id": 15,
+            "direction": "Direction10",
+            "receiver": ["PLACE", "10 rue Hélène BOUCHER", "77 270 COMPANS / France"],
+            "unloading": "77 270 COMPANS / France",
+            "fileName": "DIRECTION10"
+        },
+        {
+            "direction": "Direction&11",
+            "subdirections": [
+                {
+                    "id": 16,
+                    "direction": "Subdirection11_1",
+                    "receiver": ["Subdirection 11_1", "Pińczowska 122", "85-877 Bydgoszcz", "85-877 Bydgoszcz"],
+                    "unloading": "85-877 Bydgoszcz",
+                    "fileName": "DIRECTION11"
+                },
+                {
+                    "id": 17,
+                    "direction": "Subdirection11_2",
+                    "receiver": ["Subdirection 11&2", "Krokusów 122", "75-809 Koszalin"],
+                    "unloading": "Krokusów 122, 75-809 Koszalin",
+                    "fileName": "DIRECTION11_OTHERPLACE"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "direction": "Direction 12",
+            "receiver": ["Direction 12", "Niecała 73", "Łódź 92-642"],
+            "unloading": "Niecała 73, Łódź 92-642",
+            "fileName": "DIRECTION12"
+        },
+        {
+            "id": 19,
+            "direction": "Direction13",
+            "receiver": ["Bologna Place", "Interporto di Bologna blocco 9.4", "40010 Bentivoglio"],
+            "unloading": "40010 Bentivoglio",
+            "fileName": "DIRECTION13"
+        },
+        {
+            "id": 20,
+            "direction": "Direction14",
+            "receiver": ["Direction14", "Dyniowa 89", "92-784 Łódź"],
+            "unloading": "Dyniowa 89, 92-784 Łódź, Polska",
+            "fileName": "DIRECTION_14"
+        },
+        {
+            "direction": "Direction15",
+            "subdirections": [
+                {
+                    "id": 21,
+                    "direction": "Subdirection15_1",
+                    "receiver": ["Subdirection 15 1", "Foksal 107", "00-372 Warszawa"],
+                    "unloading": "Warszawa Foksal 107",
+                    "fileName": "DIRECTION15_SUBDIRECTION15_1"
+                },
+                {
+                    "id": 22,
+                    "direction": "Subdirection15_2",
+                    "receiver": ["Subdirection 15 2", "Kukułcza 128", "30-232 Kraków"],
+                    "unloading": "Kraków Kukułcza 128",
+                    "fileName": "DIRECTION15_SUBDIRECTION15_2"
+                },
+                {
+                    "id": 23,
+                    "direction": "Subdirection15_3",
+                    "receiver": ["Subdirection 15_3", "Nový Majer, 926 01", " Sereď-Nový majer, Słowacja"],
+                    "unloading": "926 01 Sereď-Nový majer, Słowacja",
+                    "fileName": "DIRECTION15_SUBDIRECTION15_3"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "direction": "Direction 16",
+            "receiver": ["Place Place PLACE", "Heksenkamp 29", "NL 5301 LX Zaltbommel"],
+            "unloading": "Heksenkamp 29, NL 5301 LX Zaltbommel",
+            "fileName": "DIRECTION16"
+        },
+        {
+            "id": 25,
+            "direction": "Direction17",
+            "receiver": ["Direction17", "Czajek 150", "30-245 Kraków-Kraków"],
+            "unloading": "Czajek 150, 30-245 Kraków-Kraków",
+            "fileName": "DIRECTION_17"
+        },
+        {
+            "direction": "Direction18",
+            "subdirections": [
+                {
+                    "id": 26,
+                    "direction": "Subdirection18_1",
+                    "receiver": ["Place_Place", "Strada Anghel I. Saligny 40", "417498 Oradea"],
+                    "unloading": "417498 Oradea",
+                    "fileName": "DIRECTION18_SUBDIRECTION18_1"
+                },
+                {
+                    "id": 27,
+                    "direction": "Subdirection18_2",
+                    "receiver": ["Place_PLACE", "Olympian Park Timisoara, DN6/E70, nr 637", "307350 Comuna Remetea Mare"],
+                    "unloading": "307350 Comuna Remetea Mare",
+                    "fileName": "DIRECTION18_SUBDIRECTION18_2"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "direction": "Direction19",
+            "receiver": ["PLACE PLACE/PLACE (COUNTRY PARCEL SERVICE), PLACE", "809 (PRIEMY SELNY PARK), 013 24 STRECNO"],
+            "unloading": "Strečno, Slovakia",
+            "fileName": "DIRECTION19"
+        },
+        {
+            "id": 29,
+            "direction": "Direction 20",
+            "receiver": ["Złotników 52", "80-834 Gdańsk"],
+            "unloading": "Direction / 20 - Złotników 52 budynek B",
+            "fileName": "DIRECTION20"
+        }
+    ]
+}

@@ -24,6 +24,3 @@ class CMR():
                     self.name += "_"
         else:
             self.name += self.trailer
-    
-    def getListText(self):
-        return self.name
